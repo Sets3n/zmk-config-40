@@ -1,0 +1,18 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_INNER
+
+config ZMK_KEYBOARD_NAME
+	default "inner"
+if USB
+
+config USB_NRFX
+    default y
+config ZMK_BLE
+    default y
+config ZMK_USB
+    default y
+
+endif
+

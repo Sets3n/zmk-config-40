@@ -1,0 +1,11 @@
+file_format: '1'
+id: inner
+name: inner
+type: shield
+url: https://inner.sets3n.com 
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+outputs:
+  - usb
+  - ble
