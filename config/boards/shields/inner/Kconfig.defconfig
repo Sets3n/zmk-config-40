@@ -5,7 +5,11 @@ if SHIELD_INNER
 
 config ZMK_KEYBOARD_NAME
 	default "inner"
+
+endif
+
 if USB
+
 
 config USB_NRFX
     default y
